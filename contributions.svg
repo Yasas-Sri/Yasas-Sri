@@ -1,15 +1,15 @@
 <svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1030" height="540" viewBox="0 0 1030 540" role="img" aria-label="Open-source contributions as a git graph">
 <defs><linearGradient id="main" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
-<style>.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease forwards}@keyframes draw{to{stroke-dashoffset:0}}.pop{opacity:0;animation:pop .6s ease forwards}@keyframes pop{from{opacity:0;transform:translateY(var(--dy))}to{opacity:1;transform:none}}.commit{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}</style>
+<style>.once{stroke-dasharray:1;stroke-dashoffset:1;animation:once 1s ease forwards}@keyframes once{to{stroke-dashoffset:0}}.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 12s ease infinite}@keyframes draw{0%{stroke-dashoffset:1;opacity:1}8%,86%{stroke-dashoffset:0;opacity:1}94%,100%{stroke-dashoffset:0;opacity:0}}.pop{opacity:0;animation:pop 12s ease infinite}@keyframes pop{0%{opacity:0;transform:translateY(var(--dy))}5%,86%{opacity:1;transform:none}94%,100%{opacity:0;transform:none}}.ride{opacity:0;animation:ride 12s linear infinite}@keyframes ride{0%,8%{opacity:0}10%,84%{opacity:1}88%,100%{opacity:0}}.commit{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}</style>
 <rect width="1030" height="540" rx="18" fill="#0d1117"/><rect width="1030" height="540" rx="18" fill="url(#grid)"/>
 <rect x=".5" y=".5" width="1029" height="539" rx="18" fill="none" stroke="#30363d"/>
-<path class="draw" pathLength="1" d="M30 270 H1000" stroke="url(#main)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<path class="once" pathLength="1" d="M30 270 H1000" stroke="url(#main)" stroke-width="3" fill="none" stroke-linecap="round"/>
 <text x="34" y="292" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#8b949e">yasas/main</text>
 <text x="996" y="292" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#22d3ee">HEAD →</text>
 <circle r="4.5" fill="#22d3ee"><animateMotion dur="7s" repeatCount="indefinite" path="M30 270 H1000"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.9;1" dur="7s" repeatCount="indefinite"/></circle>
 <path id="b0" class="draw" pathLength="1" style="animation-delay:0.70s" d="M60 270 C60 200 130 220 130 150" stroke="#a78bfa" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:0.00s" cx="60" cy="270" r="6" fill="#0d1117" stroke="#a78bfa" stroke-width="2.5"/>
-<circle r="3" fill="#a78bfa" opacity="0"><animateMotion dur="2.6s" begin="1.90s" repeatCount="indefinite"><mpath xlink:href="#b0"/></animateMotion><set attributeName="opacity" to="1" begin="1.90s"/></circle>
+<circle class="ride" style="animation-delay:0.70s" r="3" fill="#a78bfa"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b0"/></animateMotion></circle>
 <g class="pop" style="animation-delay:1.30s;--dy:10px">
 <rect x="30" y="28" width="200" height="122" rx="12" fill="#161b22" stroke="#a78bfa" stroke-opacity=".45"/>
 <rect x="44" y="28" width="44" height="3" rx="1.5" fill="#a78bfa"/><circle cx="130" cy="150" r="4" fill="#a78bfa"/>
@@ -24,7 +24,7 @@
 </g>
 <path id="b1" class="draw" pathLength="1" style="animation-delay:0.98s" d="M170 270 C170 340 240 320 240 390" stroke="#f0b429" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:0.28s" cx="170" cy="270" r="6" fill="#0d1117" stroke="#f0b429" stroke-width="2.5"/>
-<circle r="3" fill="#f0b429" opacity="0"><animateMotion dur="2.6s" begin="2.18s" repeatCount="indefinite"><mpath xlink:href="#b1"/></animateMotion><set attributeName="opacity" to="1" begin="2.18s"/></circle>
+<circle class="ride" style="animation-delay:0.98s" r="3" fill="#f0b429"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b1"/></animateMotion></circle>
 <g class="pop" style="animation-delay:1.58s;--dy:-10px">
 <rect x="140" y="390" width="200" height="122" rx="12" fill="#161b22" stroke="#f0b429" stroke-opacity=".45"/>
 <rect x="154" y="390" width="44" height="3" rx="1.5" fill="#f0b429"/><circle cx="240" cy="390" r="4" fill="#f0b429"/>
@@ -39,7 +39,7 @@
 </g>
 <path id="b2" class="draw" pathLength="1" style="animation-delay:1.26s" d="M280 270 C280 200 350 220 350 150" stroke="#22d3ee" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:0.56s" cx="280" cy="270" r="6" fill="#0d1117" stroke="#22d3ee" stroke-width="2.5"/>
-<circle r="3" fill="#22d3ee" opacity="0"><animateMotion dur="2.6s" begin="2.46s" repeatCount="indefinite"><mpath xlink:href="#b2"/></animateMotion><set attributeName="opacity" to="1" begin="2.46s"/></circle>
+<circle class="ride" style="animation-delay:1.26s" r="3" fill="#22d3ee"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b2"/></animateMotion></circle>
 <g class="pop" style="animation-delay:1.86s;--dy:10px">
 <rect x="250" y="28" width="200" height="122" rx="12" fill="#161b22" stroke="#22d3ee" stroke-opacity=".45"/>
 <rect x="264" y="28" width="44" height="3" rx="1.5" fill="#22d3ee"/><circle cx="350" cy="150" r="4" fill="#22d3ee"/>
@@ -54,7 +54,7 @@
 </g>
 <path id="b3" class="draw" pathLength="1" style="animation-delay:1.54s" d="M390 270 C390 340 460 320 460 390" stroke="#f472b6" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:0.84s" cx="390" cy="270" r="6" fill="#0d1117" stroke="#f472b6" stroke-width="2.5"/>
-<circle r="3" fill="#f472b6" opacity="0"><animateMotion dur="2.6s" begin="2.74s" repeatCount="indefinite"><mpath xlink:href="#b3"/></animateMotion><set attributeName="opacity" to="1" begin="2.74s"/></circle>
+<circle class="ride" style="animation-delay:1.54s" r="3" fill="#f472b6"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b3"/></animateMotion></circle>
 <g class="pop" style="animation-delay:2.14s;--dy:-10px">
 <rect x="360" y="390" width="200" height="122" rx="12" fill="#161b22" stroke="#f472b6" stroke-opacity=".45"/>
 <rect x="374" y="390" width="44" height="3" rx="1.5" fill="#f472b6"/><circle cx="460" cy="390" r="4" fill="#f472b6"/>
@@ -69,7 +69,7 @@
 </g>
 <path id="b4" class="draw" pathLength="1" style="animation-delay:1.82s" d="M500 270 C500 200 570 220 570 150" stroke="#3fb950" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:1.12s" cx="500" cy="270" r="6" fill="#0d1117" stroke="#3fb950" stroke-width="2.5"/>
-<circle r="3" fill="#3fb950" opacity="0"><animateMotion dur="2.6s" begin="3.02s" repeatCount="indefinite"><mpath xlink:href="#b4"/></animateMotion><set attributeName="opacity" to="1" begin="3.02s"/></circle>
+<circle class="ride" style="animation-delay:1.82s" r="3" fill="#3fb950"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b4"/></animateMotion></circle>
 <g class="pop" style="animation-delay:2.42s;--dy:10px">
 <rect x="470" y="28" width="200" height="122" rx="12" fill="#161b22" stroke="#3fb950" stroke-opacity=".45"/>
 <rect x="484" y="28" width="44" height="3" rx="1.5" fill="#3fb950"/><circle cx="570" cy="150" r="4" fill="#3fb950"/>
@@ -84,7 +84,7 @@
 </g>
 <path id="b5" class="draw" pathLength="1" style="animation-delay:2.10s" d="M610 270 C610 340 680 320 680 390" stroke="#fb923c" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:1.40s" cx="610" cy="270" r="6" fill="#0d1117" stroke="#fb923c" stroke-width="2.5"/>
-<circle r="3" fill="#fb923c" opacity="0"><animateMotion dur="2.6s" begin="3.30s" repeatCount="indefinite"><mpath xlink:href="#b5"/></animateMotion><set attributeName="opacity" to="1" begin="3.30s"/></circle>
+<circle class="ride" style="animation-delay:2.10s" r="3" fill="#fb923c"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b5"/></animateMotion></circle>
 <g class="pop" style="animation-delay:2.70s;--dy:-10px">
 <rect x="580" y="390" width="200" height="122" rx="12" fill="#161b22" stroke="#fb923c" stroke-opacity=".45"/>
 <rect x="594" y="390" width="44" height="3" rx="1.5" fill="#fb923c"/><circle cx="680" cy="390" r="4" fill="#fb923c"/>
@@ -99,7 +99,7 @@
 </g>
 <path id="b6" class="draw" pathLength="1" style="animation-delay:2.38s" d="M720 270 C720 200 790 220 790 150" stroke="#a78bfa" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:1.68s" cx="720" cy="270" r="6" fill="#0d1117" stroke="#a78bfa" stroke-width="2.5"/>
-<circle r="3" fill="#a78bfa" opacity="0"><animateMotion dur="2.6s" begin="3.58s" repeatCount="indefinite"><mpath xlink:href="#b6"/></animateMotion><set attributeName="opacity" to="1" begin="3.58s"/></circle>
+<circle class="ride" style="animation-delay:2.38s" r="3" fill="#a78bfa"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b6"/></animateMotion></circle>
 <g class="pop" style="animation-delay:2.98s;--dy:10px">
 <rect x="690" y="28" width="200" height="122" rx="12" fill="#161b22" stroke="#a78bfa" stroke-opacity=".45"/>
 <rect x="704" y="28" width="44" height="3" rx="1.5" fill="#a78bfa"/><circle cx="790" cy="150" r="4" fill="#a78bfa"/>
@@ -114,7 +114,7 @@
 </g>
 <path id="b7" class="draw" pathLength="1" style="animation-delay:2.66s" d="M830 270 C830 340 900 320 900 390" stroke="#f0b429" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:1.96s" cx="830" cy="270" r="6" fill="#0d1117" stroke="#f0b429" stroke-width="2.5"/>
-<circle r="3" fill="#f0b429" opacity="0"><animateMotion dur="2.6s" begin="3.86s" repeatCount="indefinite"><mpath xlink:href="#b7"/></animateMotion><set attributeName="opacity" to="1" begin="3.86s"/></circle>
+<circle class="ride" style="animation-delay:2.66s" r="3" fill="#f0b429"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b7"/></animateMotion></circle>
 <g class="pop" style="animation-delay:3.26s;--dy:-10px">
 <rect x="800" y="390" width="200" height="122" rx="12" fill="#161b22" stroke="#f0b429" stroke-opacity=".45"/>
 <rect x="814" y="390" width="44" height="3" rx="1.5" fill="#f0b429"/><circle cx="900" cy="390" r="4" fill="#f0b429"/>

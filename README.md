@@ -2,19 +2,7 @@
 
 ### Hi, I'm Yasas
 
-```console
-yasas@github:~$ whoami
-Yasas Sri — open source contributor.
-
-yasas@github:~$ cat current_contributing_projects.txt
-Meshery · Station House · geo-sleuth
-
-yasas@github:~$ cat interests.txt
-AI agents & tooling · ML research · ML systems · kernels & low-level stuff
-
-yasas@github:~$ cat languages.txt
-Rust · Python · TypeScript · Go · C
-```
+<img src="whoami.svg" width="62%" alt="Terminal: whoami — Yasas Sri, open source contributor. Projects: Meshery, Station House, geo-sleuth. Interests: AI agents & tooling, ML research, ML systems, kernels. Languages: Rust, Python, TypeScript, Go, C." />
 
 <br clear="right" />
 

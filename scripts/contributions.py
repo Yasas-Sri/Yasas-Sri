@@ -81,12 +81,17 @@ def render_svg(cards):
            f'viewBox="0 0 {W} 540" role="img" aria-label="Open-source contributions as a git graph">',
            '<defs><linearGradient id="main" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient>'
            '<pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>',
-           '<style>.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 1s ease forwards}@keyframes draw{to{stroke-dashoffset:0}}'
-           '.pop{opacity:0;animation:pop .6s ease forwards}@keyframes pop{from{opacity:0;transform:translateY(var(--dy))}to{opacity:1;transform:none}}'
+           # ponytail: one 12s cycle for every element; animation-delay only offsets the first run, so the stagger repeats
+           '<style>.once{stroke-dasharray:1;stroke-dashoffset:1;animation:once 1s ease forwards}@keyframes once{to{stroke-dashoffset:0}}'
+           '.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 12s ease infinite}'
+           '@keyframes draw{0%{stroke-dashoffset:1;opacity:1}8%,86%{stroke-dashoffset:0;opacity:1}94%,100%{stroke-dashoffset:0;opacity:0}}'
+           '.pop{opacity:0;animation:pop 12s ease infinite}'
+           '@keyframes pop{0%{opacity:0;transform:translateY(var(--dy))}5%,86%{opacity:1;transform:none}94%,100%{opacity:0;transform:none}}'
+           '.ride{opacity:0;animation:ride 12s linear infinite}@keyframes ride{0%,8%{opacity:0}10%,84%{opacity:1}88%,100%{opacity:0}}'
            '.commit{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}</style>',
            f'<rect width="{W}" height="540" rx="18" fill="#0d1117"/><rect width="{W}" height="540" rx="18" fill="url(#grid)"/>',
            f'<rect x=".5" y=".5" width="{W - 1}" height="539" rx="18" fill="none" stroke="#30363d"/>',
-           f'<path class="draw" pathLength="1" d="M30 270 H{W - 30}" stroke="url(#main)" stroke-width="3" fill="none" stroke-linecap="round"/>',
+           f'<path class="once" pathLength="1" d="M30 270 H{W - 30}" stroke="url(#main)" stroke-width="3" fill="none" stroke-linecap="round"/>',
            t(34, 292, f"{USER.split('-')[0].lower()}/main", 11, "#8b949e", MONO),
            t(W - 34, 292, "HEAD →", 11, "#22d3ee", MONO, 'text-anchor="end" '),
            f'<circle r="4.5" fill="#22d3ee"><animateMotion dur="7s" repeatCount="indefinite" path="M30 270 H{W - 30}"/>'
@@ -99,8 +104,7 @@ def render_svg(cards):
         out += [f'<path id="b{i}" class="draw" pathLength="1" style="animation-delay:{.7 + d:.2f}s" d="M{cx} 270 C{bend[0]} {bend[1]} {bend[2]} {bend[3]} {ax} {ay}" '
                 f'stroke="{col}" stroke-opacity=".75" stroke-width="2.2" fill="none"/>',
                 f'<circle class="commit" style="animation-delay:{d:.2f}s" cx="{cx}" cy="270" r="6" fill="#0d1117" stroke="{col}" stroke-width="2.5"/>',
-                f'<circle r="3" fill="{col}" opacity="0"><animateMotion dur="2.6s" begin="{1.9 + d:.2f}s" repeatCount="indefinite"><mpath xlink:href="#b{i}"/></animateMotion>'
-                f'<set attributeName="opacity" to="1" begin="{1.9 + d:.2f}s"/></circle>',
+                f'<circle class="ride" style="animation-delay:{.7 + d:.2f}s" r="3" fill="{col}"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b{i}"/></animateMotion></circle>',
                 f'<g class="pop" style="animation-delay:{1.3 + d:.2f}s;--dy:{10 if top else -10}px">',
                 f'<rect x="{x}" y="{y}" width="200" height="122" rx="12" fill="#161b22" stroke="{col}" stroke-opacity=".45"/>',
                 f'<rect x="{x + 14}" y="{y}" width="44" height="3" rx="1.5" fill="{col}"/><circle cx="{ax}" cy="{ay}" r="4" fill="{col}"/>',
