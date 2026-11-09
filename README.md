@@ -1,8 +1,8 @@
 <img align="right" width="260" src="113097.gif" alt="Ed and Al pixel art" />
 
-### Hi, I'm Yasas
+### Hi, 
 
-<img src="whoami.svg" width="62%" alt="Terminal: whoami — Yasas Sri, open source contributor. Projects: Meshery, Station House, geo-sleuth. Interests: AI agents & tooling, ML research, ML systems, kernels. Languages: Rust, Python, TypeScript, Go, C." />
+<img src="whoami.svg" width="68%" alt="Terminal: whoami — Yasas Sri, open source contributor. Projects: Meshery, Station House, geo-sleuth. Interests: AI agents & tooling, ML research, ML systems, kernels. Languages: Rust, Python, TypeScript, Go, C." />
 
 <br clear="right" />
 
