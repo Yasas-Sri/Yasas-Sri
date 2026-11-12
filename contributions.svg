@@ -1,12 +1,12 @@
-<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1140" height="540" viewBox="0 0 1140 540" role="img" aria-label="Open-source contributions as a git graph">
+<svg xmlns="http://www.w3.org/2000/svg" xmlns:xlink="http://www.w3.org/1999/xlink" width="1250" height="540" viewBox="0 0 1250 540" role="img" aria-label="Open-source contributions as a git graph">
 <defs><linearGradient id="main" x1="0" x2="1"><stop offset="0" stop-color="#a78bfa"/><stop offset="1" stop-color="#22d3ee"/></linearGradient><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M40 0H0V40" fill="none" stroke="#ffffff" stroke-opacity=".035"/></pattern></defs>
 <style>.once{stroke-dasharray:1;stroke-dashoffset:1;animation:once 1s ease forwards}@keyframes once{to{stroke-dashoffset:0}}.draw{stroke-dasharray:1;stroke-dashoffset:1;animation:draw 12s ease infinite}@keyframes draw{0%{stroke-dashoffset:1;opacity:1}8%,86%{stroke-dashoffset:0;opacity:1}94%,100%{stroke-dashoffset:0;opacity:0}}.pop{opacity:0;animation:pop 12s ease infinite}@keyframes pop{0%{opacity:0;transform:translateY(var(--dy))}5%,86%{opacity:1;transform:none}94%,100%{opacity:0;transform:none}}.ride{opacity:0;animation:ride 12s linear infinite}@keyframes ride{0%,8%{opacity:0}10%,84%{opacity:1}88%,100%{opacity:0}}.commit{transform-box:fill-box;transform-origin:center;animation:beat 2.4s ease-in-out infinite}@keyframes beat{0%,100%{transform:scale(1)}50%{transform:scale(1.35)}}</style>
-<rect width="1140" height="540" rx="18" fill="#0d1117"/><rect width="1140" height="540" rx="18" fill="url(#grid)"/>
-<rect x=".5" y=".5" width="1139" height="539" rx="18" fill="none" stroke="#30363d"/>
-<path class="once" pathLength="1" d="M30 270 H1110" stroke="url(#main)" stroke-width="3" fill="none" stroke-linecap="round"/>
+<rect width="1250" height="540" rx="18" fill="#0d1117"/><rect width="1250" height="540" rx="18" fill="url(#grid)"/>
+<rect x=".5" y=".5" width="1249" height="539" rx="18" fill="none" stroke="#30363d"/>
+<path class="once" pathLength="1" d="M30 270 H1220" stroke="url(#main)" stroke-width="3" fill="none" stroke-linecap="round"/>
 <text x="34" y="292" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#8b949e">yasas/main</text>
-<text x="1106" y="292" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#22d3ee">HEAD →</text>
-<circle r="4.5" fill="#22d3ee"><animateMotion dur="7s" repeatCount="indefinite" path="M30 270 H1110"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.9;1" dur="7s" repeatCount="indefinite"/></circle>
+<text x="1216" y="292" text-anchor="end" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#22d3ee">HEAD →</text>
+<circle r="4.5" fill="#22d3ee"><animateMotion dur="7s" repeatCount="indefinite" path="M30 270 H1220"/><animate attributeName="opacity" values="0;1;1;0" keyTimes="0;.05;.9;1" dur="7s" repeatCount="indefinite"/></circle>
 <path id="b0" class="draw" pathLength="1" style="animation-delay:0.70s" d="M60 270 C60 200 130 220 130 150" stroke="#a78bfa" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
 <circle class="commit" style="animation-delay:0.00s" cx="60" cy="270" r="6" fill="#0d1117" stroke="#a78bfa" stroke-width="2.5"/>
 <circle class="ride" style="animation-delay:0.70s" r="3" fill="#a78bfa"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b0"/></animateMotion></circle>
@@ -141,5 +141,20 @@
 <text x="932" y="135" font-weight="700" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#22d3ee">PR #30648</text>
 <text x="1096" y="135" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#8b949e">Rust</text>
 <circle cx="1061.2" cy="131" r="4" fill="#dea584"/>
+</g>
+<path id="b9" class="draw" pathLength="1" style="animation-delay:3.22s" d="M1050 270 C1050 340 1120 320 1120 390" stroke="#f472b6" stroke-opacity=".75" stroke-width="2.2" fill="none"/>
+<circle class="commit" style="animation-delay:2.52s" cx="1050" cy="270" r="6" fill="#0d1117" stroke="#f472b6" stroke-width="2.5"/>
+<circle class="ride" style="animation-delay:3.22s" r="3" fill="#f472b6"><animateMotion dur="2.6s" repeatCount="indefinite"><mpath xlink:href="#b9"/></animateMotion></circle>
+<g class="pop" style="animation-delay:3.82s;--dy:-10px">
+<rect x="1020" y="390" width="200" height="122" rx="12" fill="#161b22" stroke="#f472b6" stroke-opacity=".45"/>
+<rect x="1034" y="390" width="44" height="3" rx="1.5" fill="#f472b6"/><circle cx="1120" cy="390" r="4" fill="#f472b6"/>
+<text x="1034" y="418" font-weight="700" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="16" fill="#e6edf3">marin-neuron-hunt</text>
+<text x="1034" y="435" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="10.5" fill="#8b949e">Station-House/marin-neuron-…</text>
+<text x="1034" y="456" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#c9d1d9">Community hunt to explain</text>
+<text x="1034" y="471" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="12" fill="#c9d1d9">Marin 32B's MLP neurons: e…</text>
+<rect x="1034" y="483" width="49.0" height="20" rx="10" fill="#f472b6" fill-opacity=".14"/>
+<text x="1042" y="497" font-weight="700" font-family="ui-monospace,SFMono-Regular,'SF Mono',Menlo,Consolas,'Liberation Mono','DejaVu Sans Mono',monospace" font-size="11" fill="#f472b6">PR #8</text>
+<text x="1206" y="497" text-anchor="end" font-family="-apple-system,BlinkMacSystemFont,'Segoe UI',Ubuntu,'Helvetica Neue',Arial,sans-serif" font-size="11" fill="#8b949e">Python</text>
+<circle cx="1158.8" cy="493" r="4" fill="#3572A5"/>
 </g>
 </svg>
