@@ -25,7 +25,7 @@
 | [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | 1.1k | [1](https://github.com/eugenioenko/ttt/commits/main?author=Yasas-Sri) | 1 | [#1610](https://github.com/eugenioenko/ttt/pull/1610) |
 | [PrismorSec/prismor](https://github.com/PrismorSec/prismor) | 487 | [1](https://github.com/PrismorSec/prismor/commits/main?author=Yasas-Sri) | 1 | [#612](https://github.com/PrismorSec/prismor/pull/612) |
 | [NandhaKishorM/vegaml](https://github.com/NandhaKishorM/vegaml) | 305 | [1](https://github.com/NandhaKishorM/vegaml/commits/main?author=Yasas-Sri) | 1 | [#15](https://github.com/NandhaKishorM/vegaml/pull/15) |
-| [vx-lang/Vx](https://github.com/vx-lang/Vx) | 246 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
+| [vx-lang/Vx](https://github.com/vx-lang/Vx) | 247 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
 | [facebookresearch/swe-sweep](https://github.com/facebookresearch/swe-sweep) | 238 | [1](https://github.com/facebookresearch/swe-sweep/commits/main?author=Yasas-Sri) | 1 | [#7](https://github.com/facebookresearch/swe-sweep/pull/7) |
 | [Station-House/marin-neuron-hunt](https://github.com/Station-House/marin-neuron-hunt) | 4 | [1](https://github.com/Station-House/marin-neuron-hunt/commits/main?author=Yasas-Sri) | 1 | [#8](https://github.com/Station-House/marin-neuron-hunt/pull/8) |
 <!-- END_SECTION:contributions -->
