@@ -28,8 +28,8 @@
 | [pulseaiclub/phi](https://github.com/pulseaiclub/phi) | 1k | [1](https://github.com/pulseaiclub/phi/commits/main?author=Yasas-Sri) | 1 | [#536](https://github.com/pulseaiclub/phi/pull/536) |
 | [apache/camel-k](https://github.com/apache/camel-k) | 937 | [1](https://github.com/apache/camel-k/commits/main?author=Yasas-Sri) | 1 | [#6970](https://github.com/apache/camel-k/pull/6970) |
 | [PrismorSec/prismor](https://github.com/PrismorSec/prismor) | 497 | [1](https://github.com/PrismorSec/prismor/commits/main?author=Yasas-Sri) | 1 | [#612](https://github.com/PrismorSec/prismor/pull/612) |
-| [NandhaKishorM/vegaml](https://github.com/NandhaKishorM/vegaml) | 309 | [1](https://github.com/NandhaKishorM/vegaml/commits/main?author=Yasas-Sri) | 1 | [#15](https://github.com/NandhaKishorM/vegaml/pull/15) |
-| [vx-lang/Vx](https://github.com/vx-lang/Vx) | 256 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
+| [NandhaKishorM/vegaml](https://github.com/NandhaKishorM/vegaml) | 310 | [1](https://github.com/NandhaKishorM/vegaml/commits/main?author=Yasas-Sri) | 1 | [#15](https://github.com/NandhaKishorM/vegaml/pull/15) |
+| [vx-lang/Vx](https://github.com/vx-lang/Vx) | 257 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
 | [facebookresearch/swe-sweep](https://github.com/facebookresearch/swe-sweep) | 245 | [1](https://github.com/facebookresearch/swe-sweep/commits/main?author=Yasas-Sri) | 1 | [#7](https://github.com/facebookresearch/swe-sweep/pull/7) |
 | [Station-House/marin-neuron-hunt](https://github.com/Station-House/marin-neuron-hunt) | 4 | [1](https://github.com/Station-House/marin-neuron-hunt/commits/main?author=Yasas-Sri) | 1 | [#8](https://github.com/Station-House/marin-neuron-hunt/pull/8) |
 <!-- END_SECTION:contributions -->
