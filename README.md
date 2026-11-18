@@ -9,7 +9,7 @@
 ## Open source
 
 <!-- START_SECTION:summary -->
-20 merged PRs in 14 projects, 9 more open.
+21 merged PRs in 15 projects, 8 more open.
 <!-- END_SECTION:summary -->
 
 <img src="contributions.svg" alt="Projects I've had PRs merged into, drawn as a git graph" />
@@ -26,9 +26,10 @@
 | [mxsm/rocketmq-rust](https://github.com/mxsm/rocketmq-rust) | 1.5k | [1](https://github.com/mxsm/rocketmq-rust/commits/main?author=Yasas-Sri) | 1 | [#11597](https://github.com/mxsm/rocketmq-rust/pull/11597) |
 | [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | 1.1k | [1](https://github.com/eugenioenko/ttt/commits/main?author=Yasas-Sri) | 1 | [#1610](https://github.com/eugenioenko/ttt/pull/1610) |
 | [pulseaiclub/phi](https://github.com/pulseaiclub/phi) | 1k | [1](https://github.com/pulseaiclub/phi/commits/main?author=Yasas-Sri) | 1 | [#536](https://github.com/pulseaiclub/phi/pull/536) |
-| [PrismorSec/prismor](https://github.com/PrismorSec/prismor) | 495 | [1](https://github.com/PrismorSec/prismor/commits/main?author=Yasas-Sri) | 1 | [#612](https://github.com/PrismorSec/prismor/pull/612) |
-| [NandhaKishorM/vegaml](https://github.com/NandhaKishorM/vegaml) | 308 | [1](https://github.com/NandhaKishorM/vegaml/commits/main?author=Yasas-Sri) | 1 | [#15](https://github.com/NandhaKishorM/vegaml/pull/15) |
-| [vx-lang/Vx](https://github.com/vx-lang/Vx) | 253 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
-| [facebookresearch/swe-sweep](https://github.com/facebookresearch/swe-sweep) | 243 | [1](https://github.com/facebookresearch/swe-sweep/commits/main?author=Yasas-Sri) | 1 | [#7](https://github.com/facebookresearch/swe-sweep/pull/7) |
+| [apache/camel-k](https://github.com/apache/camel-k) | 937 | [1](https://github.com/apache/camel-k/commits/main?author=Yasas-Sri) | 1 | [#6970](https://github.com/apache/camel-k/pull/6970) |
+| [PrismorSec/prismor](https://github.com/PrismorSec/prismor) | 497 | [1](https://github.com/PrismorSec/prismor/commits/main?author=Yasas-Sri) | 1 | [#612](https://github.com/PrismorSec/prismor/pull/612) |
+| [NandhaKishorM/vegaml](https://github.com/NandhaKishorM/vegaml) | 309 | [1](https://github.com/NandhaKishorM/vegaml/commits/main?author=Yasas-Sri) | 1 | [#15](https://github.com/NandhaKishorM/vegaml/pull/15) |
+| [vx-lang/Vx](https://github.com/vx-lang/Vx) | 256 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
+| [facebookresearch/swe-sweep](https://github.com/facebookresearch/swe-sweep) | 245 | [1](https://github.com/facebookresearch/swe-sweep/commits/main?author=Yasas-Sri) | 1 | [#7](https://github.com/facebookresearch/swe-sweep/pull/7) |
 | [Station-House/marin-neuron-hunt](https://github.com/Station-House/marin-neuron-hunt) | 4 | [1](https://github.com/Station-House/marin-neuron-hunt/commits/main?author=Yasas-Sri) | 1 | [#8](https://github.com/Station-House/marin-neuron-hunt/pull/8) |
 <!-- END_SECTION:contributions -->
