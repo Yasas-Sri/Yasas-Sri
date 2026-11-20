@@ -27,7 +27,7 @@
 | [eugenioenko/ttt](https://github.com/eugenioenko/ttt) | 1.2k | [1](https://github.com/eugenioenko/ttt/commits/main?author=Yasas-Sri) | 1 | [#1610](https://github.com/eugenioenko/ttt/pull/1610) |
 | [pulseaiclub/phi](https://github.com/pulseaiclub/phi) | 1k | [1](https://github.com/pulseaiclub/phi/commits/main?author=Yasas-Sri) | 1 | [#536](https://github.com/pulseaiclub/phi/pull/536) |
 | [apache/camel-k](https://github.com/apache/camel-k) | 938 | [1](https://github.com/apache/camel-k/commits/main?author=Yasas-Sri) | 1 | [#6970](https://github.com/apache/camel-k/pull/6970) |
-| [PrismorSec/prismor](https://github.com/PrismorSec/prismor) | 580 | [1](https://github.com/PrismorSec/prismor/commits/main?author=Yasas-Sri) | 1 | [#612](https://github.com/PrismorSec/prismor/pull/612) |
+| [PrismorSec/prismor](https://github.com/PrismorSec/prismor) | 581 | [1](https://github.com/PrismorSec/prismor/commits/main?author=Yasas-Sri) | 1 | [#612](https://github.com/PrismorSec/prismor/pull/612) |
 | [NandhaKishorM/vegaml](https://github.com/NandhaKishorM/vegaml) | 313 | [1](https://github.com/NandhaKishorM/vegaml/commits/main?author=Yasas-Sri) | 1 | [#15](https://github.com/NandhaKishorM/vegaml/pull/15) |
 | [vx-lang/Vx](https://github.com/vx-lang/Vx) | 260 | [1](https://github.com/vx-lang/Vx/commits/main?author=Yasas-Sri) | 1 | [#3015](https://github.com/vx-lang/Vx/pull/3015) |
 | [facebookresearch/swe-sweep](https://github.com/facebookresearch/swe-sweep) | 246 | [1](https://github.com/facebookresearch/swe-sweep/commits/main?author=Yasas-Sri) | 1 | [#7](https://github.com/facebookresearch/swe-sweep/pull/7) |
