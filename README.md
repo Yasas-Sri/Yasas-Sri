@@ -9,7 +9,7 @@
 ## Open source
 
 <!-- START_SECTION:summary -->
-24 merged PRs in 17 projects, 10 more open.
+24 merged PRs in 17 projects, 11 more open.
 <!-- END_SECTION:summary -->
 
 <img src="contributions.svg" alt="Projects I've had PRs merged into, drawn as a git graph" />
@@ -18,7 +18,7 @@
 | Repository | Stars | Commits | Merged PRs | PR Links |
 |:--|--:|:--:|:--:|:--|
 | [pola-rs/polars](https://github.com/pola-rs/polars) | 40.5k | [1](https://github.com/pola-rs/polars/commits/main?author=Yasas-Sri) | 1 | [#30648](https://github.com/pola-rs/polars/pull/30648) |
-| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 18.5k | [3](https://github.com/storytold/wordcraft/commits/main?author=Yasas-Sri) | 3 | [#823](https://github.com/storytold/wordcraft/pull/823), [#1604](https://github.com/storytold/wordcraft/pull/1604), [#4701](https://github.com/storytold/wordcraft/pull/4701) |
+| [storytold/wordcraft](https://github.com/storytold/wordcraft) | 18.6k | [3](https://github.com/storytold/wordcraft/commits/main?author=Yasas-Sri) | 3 | [#823](https://github.com/storytold/wordcraft/pull/823), [#1604](https://github.com/storytold/wordcraft/pull/1604), [#4701](https://github.com/storytold/wordcraft/pull/4701) |
 | [meshery/meshery](https://github.com/meshery/meshery) | 12.3k | [2](https://github.com/meshery/meshery/commits/master?author=Yasas-Sri) | 1 | [#23644](https://github.com/meshery/meshery/pull/23644) |
 | [Oldcircle/geo-sleuth](https://github.com/Oldcircle/geo-sleuth) | 7.5k | [5](https://github.com/Oldcircle/geo-sleuth/commits/main?author=Yasas-Sri) | 5 | [View all](https://github.com/Oldcircle/geo-sleuth/pulls?q=is%3Apr+is%3Amerged+author%3AYasas-Sri) |
 | [apache/iggy](https://github.com/apache/iggy) | 5.4k | [1](https://github.com/apache/iggy/commits/master?author=Yasas-Sri) | 1 | [#4851](https://github.com/apache/iggy/pull/4851) |
